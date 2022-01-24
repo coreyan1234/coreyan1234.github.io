@@ -1,0 +1,479 @@
+:root {
+  --primary-bg-color: #fff;
+  --secondary-bg-color: whitesmoke;
+  --primary-text-color: black;
+  --secondary-text-color: #444;
+  --white-text: white;
+  --light-sky-blue: lightskyblue;
+}
+
+.dark-mode {
+  --primary-bg-color: #3e4c59;
+  --secondary-bg-color: slategray;
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+  --white-text: black;
+  --light-sky-blue: #3e4c59;
+}
+
+body {
+  /* font-size/line-height, font-family */
+  font: 15px/1.5 Roboto, Georgia, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.center-title {
+  text-align: center;
+}
+
+/* HEADER ----------------------------------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--light-sky-blue);
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: slategray 3px solid;
+}
+
+header a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  /*float: left;*/
+  margin: 0 20px 0 20px;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header .highlight {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+  /*text-shadow: 1px 0 0 currentColor;*/
+  text-shadow: 0 0.025em white,0 -0.025em white,0.02em 0 white,-0.02em 0 white;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  position: relative;
+  width: 75px;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  background: #222;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Icons */
+label i {
+  font-size: 18px;
+}
+label .fa-sun {
+  color: gold;
+  transition: 0.8s;
+  opacity: 1;
+}
+label .fa-moon {
+  color: #fff;
+  transition: 0.8s;
+  opacity: 0;
+  transform: translateX(55px) rotate(250deg);
+}
+label .slider {
+  display: none;
+}
+
+/* "Animates" the icons to move */
+input:checked + label .fa-sun {
+  transform: translateX(-55px) rotate(160deg);
+  opacity: 0;
+}
+input:checked + label .fa-moon {
+  transform: translateX(0px) rotate(0);
+  opacity: 1;
+}
+
+/* The moving slider piece */
+label .slider {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 5px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+input:checked + label .slider {
+  transform: translateX(51px);
+  background: #222;
+}
+
+input:checked + label {
+  background: #c0c0c0;
+}
+
+/* Removes checkbox */
+input {
+  display: none;
+}
+
+/* NAV bar icons */
+nav .fas {
+  margin-right: 5px;
+}
+
+/* Showcase --------------------------------------------------------------------------------------*/
+
+#showcase {
+  min-height: 275px;
+  background: url("../img/artistic-city-vector-blue-4k-b3-2560x1080.jpg") no-repeat 0 -100px;
+  text-align: center;
+  color: white;
+}
+
+#showcase h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+#showcase p {
+  margin-top: 0;
+}
+
+a.button_resume {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid white;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 20px;
+}
+a.button_resume:hover {
+  color: black;
+  background-color: white;
+}
+
+/* About -----------------------------------------------------------------------------------------*/
+
+#about {
+  min-height: 400px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+#about .section_with_img {
+  margin-top: 10px;
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+#about .section_with_img img {
+  width: 200px;
+  position: relative;
+}
+
+#about .description {
+  margin-top: 65px;
+  display: inline-block;
+  /*max-width: 100%;*/
+  width: 60%;
+}
+
+/* Projects --------------------------------------------------------------------------------------*/
+
+#projects {
+  min-height: 1120px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.project {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.project img, video {
+  width: 475px;
+  float: left;
+}
+
+#projects p {
+  margin-left: 50px;
+}
+
+.project-info {
+  float: right;
+}
+
+.project h3 {
+  text-align: center;
+  margin: 0;
+}
+
+/* Skills ----------------------------------------------------------------------------------------*/
+
+#skills {
+  min-height: 260px;
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.skills-list {
+  text-align: center;
+}
+
+#skills ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 0 30px 0 30px;
+  text-align: center;
+}
+
+#skills .fab {
+  font-size: 100px;
+}
+#skills .fa-html5 {
+  color: #e34c26;
+}
+#skills .fa-css3-alt {
+  color: #264de4;
+}
+#skills .fa-python {
+  color: #4B8BBE;
+}
+#skills .fa-java {
+  color: #f89820;
+}
+#skills .fa-r-project {
+  color: #165CAA;
+}
+#skills .fa-js {
+  color: #F0DB4F;
+}
+
+/* Experience ------------------------------------------------------------------------------------*/
+
+#experience {
+  min-height: 400px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* Education -------------------------------------------------------------------------------------*/
+
+#education {
+  min-height: 450px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.school {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 25px;
+}
+
+.school-img img {
+  width: 150px;
+  float: left;
+}
+
+.school h2, h4 {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Contact ---------------------------------------------------------------------------------------*/
+
+#contact {
+  min-height: 290px;
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+
+#contact ul {
+  list-style-type: none;
+  padding-right: 60px;
+  text-align: center;
+}
+
+#contact li {
+  display: inline-block;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+#contact a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+#contact .fa-envelope {
+  font-size: 65px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+
+#contact .fa-linkedin {
+  font-size: 65px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+
+#contact .fa-github{
+  font-size: 65px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+
+/* Footer ----------------------------------------------------------------------------------------*/
+
+footer {
+  padding: 10px;
+  color: var(--primary-text-color);
+  background-color: var(--light-sky-blue);
+}
+
+footer p {
+  float: left;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+
+.social_links {
+  float: right;
+}
+
+footer .fa-linkedin {
+  font-size: 35px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+footer .fa-linkedin:hover {
+  color: #0E76A8; /* LinkedIn icon color */
+}
+
+footer .fa-github{
+  font-size: 35px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+footer .fa-github:hover {
+  color: #4183C4;
+}
+
+/* Media Queries ---------------------------------------------------------------------------------*/
+@media(max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  header .switch-container {
+    float: none;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #about .description {
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #about .section_with_img {
+    float: none;
+    width: 100%;
+  }
+
+  a .button_resume{
+    display:block;
+    margin:0.4em auto;
+  }
+}
+
+/*
+article {
+  width: clamp(200px, 50%, 600px);
+}*/

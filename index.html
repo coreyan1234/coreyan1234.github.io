@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="My portfolio">
+  <meta name="keywords" content="experiences, portfolio, computer science, projects">
+  <meta name="author" content="Corey An">
+  <title>Portfolio | Welcome</title>
+  <!-- Style sheet (also available from "w3schools font awesome") -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font Awesome Icon Library -->
+  <script src="https://kit.fontawesome.com/95e1311ed6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="switch-container">
+        <input type="checkbox" id="switch">
+        <label for="switch">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div id="branding">
+        <h1><span class="highlight">C.A. Portfolio</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <!--<li><a href="#about">About</a></li>-->
+          <li><a href="#projects"><i class="fas fa-file-code"></i>Projects</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i>Skills</a></li>
+          <!--<li><a href="#experience">Experience</a></li>-->
+          <li><a href="#education"><i class="fas fa-user-graduate"></i>Education</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Corey An</h1>
+      <p>Hi, I'm currently seeking a full-time co-op position for Fall 2022 (July-December 2022) as a 3rd
+      year computer science student at Northeastern University</p>
+      <p class="view_resume">
+        <a href="https://1drv.ms/w/s!Avl-GxE_D7PdgdtwQ1XV2yoRCge4aQ?e=h5RSnK" class="button_resume" target="_blank">
+          View Resume Online
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!--<section id="about">
+    <div class="container">
+      <div class="section_with_img">
+        <h2>About Me</h2>
+        <img src="./img/Boston_Harbor.jpg" alt="image cannot be displayed">
+      </div>
+      <div class="description">
+        <p>Hi, I'm Corey. </p>
+        <ul>
+          <li>Currently seeking a full-time co-op position for Fall 2022 (July-December 2022)</li>
+          <li>3rd-year computer science student at Northeastern University.</li>
+          <li>Interests: Gym, basketball, rating pizza, video games, music: hip-hop, EDM, alternative/indie</li>
+        </ul>
+      </div>
+    </div>
+  </section>-->
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="center-title">Projects</h2>
+      <div class="project Freecell">
+        <div class="project-img">
+          <video src="./video/FreeCell-Demo.mkv" controls width="500px">
+            Your browser does not support the video tag
+          </video>
+        </div>
+        <div class="project-info">
+          <h3>FreeCell Solitaire Game</h3>
+          <p>
+            <b>What is FreeCell:</b>
+            FreeCell is a solitaire card game played using the standard 52-card deck,
+            and all cards are dealt face-up.
+          </p>
+          <p>
+            I programmed FreeCell as an interactive text-based game and implemented Object-Oriented programming
+            principles to create a Model, Controller, and View. Users type their desired move in the format:
+            origin pile, card index to move, the destination pile. The game checks if the move is valid; if
+            the move is not allowed, a specific error message will inform the user and suggest to try again.
+            In order to achieve proper program behavior, I performed rigorous testing to ensure that all
+            functions work properly. The game went through various iterations where new features were added
+            on top of the pre-existing code base.
+          </p>
+          <p>
+            <b>Made with:</b>
+            Java, JUnit
+          </p>
+        </div>
+      </div>
+      <div class="project NBA">
+        <div class="project-img">
+          <img src="./img/NBA_MIP_Graphs.png" alt="NBA MIP Project Image">
+        </div>
+        <div class="project-info">
+          <h3>NBA Most Improved Player (MIP) Award Prediction</h3>
+          <p>
+            <b>How the award is decided:</b>
+            Every season, the National Basketball Association's (NBA) Most Improved Player (MIP) award is given to one player.
+            A panel of sportswriters each have a first-place, second-place, and third-place vote, worth 5, 3, and 1 point,
+            respectively. When votes are cast, nominees accrue voting shares, representing the percentage of votes that they
+            received. The player with the greatest number of voting shares wins the award.
+          </p>
+          <p>
+            I worked with datasets and machine learning models (K-nearest neighbors, Ridge, Lasso) to try
+            and predict the voting shares that each player will receive in a season. I extracted datasets
+            of thousands of players' statistics to clean and feed into the machine learning models; a portion
+            of the data would be used for training the model, and another portion would be used for testing.
+            Further tuning was applied to the model to produce better results: GridSearchCV for hyperparameters,
+            and Recursive Feature Elimination.
+          </p>
+          <p>
+            <b>Made with:</b>
+            Python, Pandas, Scikit-Learn, Plotly
+          </p>
+        </div>
+      </div>
+      <div class="project Website">
+        <div class="project-img">
+          <img src="./img/Website.png" alt="Website Project Image">
+        </div>
+        <div class="project-info">
+          <h3>Personal Website</h3>
+          <p>
+            I created a personal website with raw HTML and CSS to further demonstrate and expand upon my
+            projects and experiences. Users can interact with the website through the various clickable
+            buttons and links. The website is dynamic, so shrinking and expanding the site will cause
+            the contents to react accordingly. Website is hosted via GitHub.
+          </p>
+          <p>
+            <b>Made with:</b>
+            HTML, CSS, GitHub
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="center-title">Skills</h2>
+      <div class="skills-list">
+        <ul>
+          <li>
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+          </li>
+          <li>
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+          </li>
+          <li>
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </li>
+          <li>
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </li>
+          <li>
+            <i class="fab fa-r-project"></i>
+            <h3>R</h3>
+          </li>
+          <li>
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--<section id="experience">
+    <div class="container">
+      <h2 class="center-title">Experience</h2>
+    </div>
+  </section>-->
+
+  <section id="education">
+    <div class="container">
+      <h2 class="center-title">Education</h2>
+      <div class="school NEU">
+        <div class="school-img">
+          <img src="./img/NEU.png" alt="NEU logo">
+        </div>
+        <div class="school-info">
+          <h2>Northeastern University</h2>
+          <h4>September 2019 - Present</h4>
+          <ul>
+            <li>Candidate for Bachelor of Science in Computer Science</li>
+            <li>GPA: 3.725/4.0</li>
+            <li>Dean's List</li>
+            <li>Activities: Alpha Kappa Sigma Fraternity, Study Abroad (NU.in Greece)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="school NVD">
+        <div class="school-img">
+          <img src="./img/NVD.png" alt="NVD logo">
+        </div>
+        <div class="school-info">
+          <h2>Northern Valley Regional High School at Demarest</h2>
+          <h4>September 2015 - June 2019</h4>
+          <ul>
+            <li>Cum Laude</li>
+            <li>Activities: Varsity Soccer (Co-Captain), Multicultural Club (Vice President)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="center-title">Contact Me</h2>
+      <div class="contact-list">
+        <ul>
+          <li>
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+            <a href="https://github.com/coreyan1234">coreyan1234</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>an.co@northeastern.edu</p>
+          </li>
+          <li>
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/corey-an">corey-an</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2021 Corey An</p>
+      <div class="social_links">
+        <ul>
+          <li><a href="https://github.com/coreyan1234" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/corey-an" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/toggle.js"></script>
+</html>
