@@ -22,6 +22,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\corey\OneDrive\Documents\GitHub\coreyan1234.github.io" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -43,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643006412510</updated>
-      <workItem from="1643006415633" duration="299000" />
+      <workItem from="1643006415633" duration="600000" />
     </task>
     <servers />
   </component>
