@@ -480,9 +480,18 @@ footer .fa-github:hover {
   #projects p {
     margin: 0;
   }
-}
 
-/*
-article {
-  width: clamp(200px, 50%, 600px);
-}*/
+  /* EDUCATION -----------------------------------------------------------------------------------*/
+  .school {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 25px;
+  }
+
+  .school-img img {
+    width: 50px;
+    float: left;
+  }
+
+}
