@@ -460,14 +460,25 @@ footer .fa-github:hover {
     margin:0.4em auto;
   }
 
-  .project video,
-  .project img,
-  .project h3,
-  .project p {
-    display: flex;
+  /* PROJECT -------------------------------------------------------------------------------------*/
+  .project {
+    display: inline-block;
+  }
+
+  .project-info {
+    margin: 0;
+    padding: 0;
+  }
+
+  .project-img {
+    width: 200px;
+    text-align: center;
+    display: block;
     float: none;
-    width: 100%;
-    justify-content: center;
+  }
+
+  #projects p {
+    margin: 0;
   }
 }
 
