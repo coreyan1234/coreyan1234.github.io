@@ -471,7 +471,7 @@ footer .fa-github:hover {
   }
 
   .project-img {
-    width: 150px;
+    width: 100px;
     text-align: center;
     display: block;
     float: none;
@@ -493,5 +493,18 @@ footer .fa-github:hover {
     width: 100px;
     float: left;
   }
+}
 
+/* This is accounts for up to the iPhone 12 Pro Max*/
+@media(max-width: 428px) {
+  /* CONTACT -------------------------------------------------------------------------------------*/
+  #contact ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact li {
+    margin: 0;
+  }
 }
