@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CS 3500/Projects/Resume" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -44,7 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643006412510</updated>
       <workItem from="1643006415633" duration="4345000" />
-      <workItem from="1643236987401" duration="7671000" />
+      <workItem from="1643236987401" duration="8160000" />
+      <workItem from="1643252938853" duration="72000" />
     </task>
     <servers />
   </component>
