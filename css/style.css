@@ -4,7 +4,9 @@
   --primary-text-color: black;
   --secondary-text-color: #444;
   --white-text: white;
-  --light-sky-blue: lightskyblue;
+  --header-footer: #97caef;
+  /*--light-sky-blue: #c2b9b0;*/
+  /*--light-sky-blue: #5680e9;*/
 }
 
 .dark-mode {
@@ -13,12 +15,12 @@
   --primary-text-color: #fff;
   --secondary-text-color: #ddd;
   --white-text: black;
-  --light-sky-blue: #3e4c59;
+  --header-footer: #3e4c59;
 }
 
 body {
   /* font-size/line-height, font-family */
-  font: 15px/1.5 Roboto, Georgia, Helvetica, sans-serif;
+  font: 16px/1.5 Poppins, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
@@ -42,7 +44,7 @@ html {
 }
 
 header {
-  background-color: var(--light-sky-blue);
+  background-color: var(--header-footer);
   padding-top: 30px;
   min-height: 70px;
   border-bottom: slategray 3px solid;
@@ -170,7 +172,8 @@ nav .fas {
 
 #showcase {
   min-height: 275px;
-  background: url("../img/artistic-city-vector-blue-4k-b3-2560x1080.jpg") no-repeat 0 -100px;
+  /*background: url("../img/artistic-city-vector-blue-4k-b3-2560x1080.jpg") no-repeat 0 -100px;*/
+  background: url("../img/Iceberg.png") no-repeat 0 -141px;
   text-align: center;
   color: white;
 }
@@ -285,10 +288,15 @@ a.button_resume:hover {
 
 #skills li {
   display: inline-block;
-  margin: 0 30px 0 30px;
+  margin: 0 20px 0 20px;
   text-align: center;
 }
 
+#skills .fab:hover,
+#skills img:hover {
+  transition: all 0.1s linear;
+  transform: scale(1.25);
+}
 #skills .fab {
   font-size: 100px;
 }
@@ -306,9 +314,11 @@ a.button_resume:hover {
 }
 #skills .fa-r-project {
   color: #165CAA;
+  font-size: 95px;
 }
 #skills .fa-js {
   color: #F0DB4F;
+  font-size: 95px;
 }
 
 /* Experience ------------------------------------------------------------------------------------*/
@@ -396,7 +406,7 @@ a.button_resume:hover {
 footer {
   padding: 10px;
   color: var(--primary-text-color);
-  background-color: var(--light-sky-blue);
+  background-color: var(--header-footer);
 }
 
 footer p {
