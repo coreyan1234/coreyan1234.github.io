@@ -4,9 +4,10 @@
   --primary-text-color: black;
   --secondary-text-color: #444;
   --white-text: white;
-  --header-footer: #97caef;
-  /*--light-sky-blue: #c2b9b0;*/
-  /*--light-sky-blue: #5680e9;*/
+  /*--header-footer: #97caef;*/
+  /*--header-footer: #c2b9b0;*/
+  /*--header-footer: #5680e9;*/
+  --header-footer: #5680e9;
 }
 
 .dark-mode {

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1643698431041" duration="227000" />
       <workItem from="1644013461994" duration="709000" />
       <workItem from="1644097671641" duration="1086000" />
-      <workItem from="1644958235247" duration="11000000" />
+      <workItem from="1644958235247" duration="13143000" />
     </task>
     <task id="LOCAL-00001" summary="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <created>1644980909555</created>
