@@ -7,7 +7,9 @@
   /*--header-footer: #97caef;*/
   /*--header-footer: #c2b9b0;*/
   /*--header-footer: #5680e9;*/
-  --header-footer: #5680e9;
+  /*--header-footer: #5680e9;*/
+  /*--header-footer: #4285f4;*/
+  --header-footer: dodgerblue;
 }
 
 .dark-mode {
@@ -36,6 +38,8 @@ body {
 
 .center-title {
   text-align: center;
+  /*color: dodgerblue;*/
+  font-size: 30px;
 }
 
 /* HEADER ----------------------------------------------------------------------------------------*/
@@ -193,7 +197,7 @@ nav .fas {
 }
 
 #showcase .description\+resume {
-  width: 600px;
+  width: 50%;
   margin: auto; /* Because #showcase .container is flex, margin auto handles white space evenly */
 }
 
