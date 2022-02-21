@@ -74,6 +74,9 @@ header li {
 header #branding h1 {
   margin: 0;
 }
+header #branding img {
+  width: 100px;
+}
 
 header nav {
   float: right;
@@ -172,21 +175,26 @@ nav .fas {
 /* Showcase --------------------------------------------------------------------------------------*/
 
 #showcase {
-  min-height: 275px;
-  /*background: url("../img/artistic-city-vector-blue-4k-b3-2560x1080.jpg") no-repeat 0 -100px;*/
-  background: url("../img/Iceberg.png") no-repeat 0 -141px;
+  min-height: 410px;
+  background: url("../img/Iceberg.png") repeat 145px -100px;
   text-align: center;
   color: white;
 }
 
-#showcase h1 {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  font-size: 55px;
+#showcase .container {
+  display: flex;
+  flex-direction: column;
 }
 
-#showcase p {
-  margin-top: 0;
+#showcase h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 70px;
+}
+
+#showcase .description\+resume {
+  width: 600px;
+  margin: auto; /* Because #showcase .container is flex, margin auto handles white space evenly */
 }
 
 a.button_resume {
