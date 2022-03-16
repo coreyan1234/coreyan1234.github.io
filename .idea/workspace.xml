@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="1. Centered the showcase description text&#10;2. Increased showcase name size&#10;3. Expanded showcase height">
+    <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue">
+      <change afterPath="$PROJECT_DIR$/img/ctrl_chase_esc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -37,19 +38,6 @@
       <recent name="C:\Users\corey\OneDrive\Documents\GitHub\coreyan1234.github.io" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +58,8 @@
       <workItem from="1644984272905" duration="96000" />
       <workItem from="1645062408048" duration="5003000" />
       <workItem from="1645083689754" duration="3953000" />
-      <workItem from="1645426318098" duration="7829000" />
+      <workItem from="1645426318098" duration="16948000" />
+      <workItem from="1647391973120" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <created>1644980909555</created>
@@ -93,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645430847855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue">
+      <created>1645476148197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645476148197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +123,7 @@
     <MESSAGE value="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section" />
     <MESSAGE value="Changed the header/footer color to #5680e9" />
     <MESSAGE value="1. Centered the showcase description text&#10;2. Increased showcase name size&#10;3. Expanded showcase height" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Centered the showcase description text&#10;2. Increased showcase name size&#10;3. Expanded showcase height" />
+    <MESSAGE value="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue" />
   </component>
 </project>

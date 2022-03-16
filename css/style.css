@@ -179,8 +179,10 @@ nav .fas {
 /* Showcase --------------------------------------------------------------------------------------*/
 
 #showcase {
-  min-height: 410px;
-  background: url("../img/Iceberg.png") repeat 145px -100px;
+  /*min-height: 410px;*/
+  background: url("../img/Iceberg.png") repeat 145px 0;
+  min-height: 520px;
+  /*background: url("../img/ctrl_chase_esc.png") repeat 740px -650px;*/
   text-align: center;
   color: white;
 }
@@ -220,9 +222,12 @@ a.button_resume:hover {
   background-color: white;
 }
 
+/* Fireflies background */
+
+
 /* About -----------------------------------------------------------------------------------------*/
 
-#about {
+/*#about {
   min-height: 400px;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -243,9 +248,9 @@ a.button_resume:hover {
 #about .description {
   margin-top: 65px;
   display: inline-block;
-  /*max-width: 100%;*/
+  !*max-width: 100%;*!
   width: 60%;
-}
+}*/
 
 /* Projects --------------------------------------------------------------------------------------*/
 
@@ -319,6 +324,11 @@ a.button_resume:hover {
 #skills .fa-css3-alt {
   color: #264de4;
 }
+#skills .fa-js {
+  color: #F0DB4F;
+  /*font-size: 95px;*/
+  font-size: 100px;
+}
 #skills .fa-python {
   color: #4B8BBE;
 }
@@ -327,10 +337,6 @@ a.button_resume:hover {
 }
 #skills .fa-r-project {
   color: #165CAA;
-  font-size: 95px;
-}
-#skills .fa-js {
-  color: #F0DB4F;
   font-size: 95px;
 }
 
