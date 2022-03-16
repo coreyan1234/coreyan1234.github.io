@@ -179,9 +179,9 @@ nav .fas {
 /* Showcase --------------------------------------------------------------------------------------*/
 
 #showcase {
-  /*min-height: 410px;*/
+  min-height: 410px;
   background: url("../img/Iceberg.png") repeat 145px 0;
-  min-height: 520px;
+  /*min-height: 520px;*/
   /*background: url("../img/ctrl_chase_esc.png") repeat 740px -650px;*/
   text-align: center;
   color: white;
