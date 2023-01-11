@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue">
+      <change afterPath="$PROJECT_DIR$/img/drift_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,9 @@
       <workItem from="1645062408048" duration="5003000" />
       <workItem from="1645083689754" duration="3953000" />
       <workItem from="1645426318098" duration="16948000" />
-      <workItem from="1647391973120" duration="987000" />
+      <workItem from="1647391973120" duration="1595000" />
+      <workItem from="1647581745948" duration="924000" />
+      <workItem from="1673472491233" duration="7899000" />
     </task>
     <task id="LOCAL-00001" summary="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <created>1644980909555</created>

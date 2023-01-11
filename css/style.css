@@ -93,7 +93,7 @@ header .highlight {
 header a:hover {
   color: white;
   /*text-shadow: 1px 0 0 currentColor;*/
-  text-shadow: 0 0.025em white,0 -0.025em white,0.02em 0 white,-0.02em 0 white;
+  /*text-shadow: 0 0.025em white,0 -0.025em white,0.02em 0 white,-0.02em 0 white;*/
 }
 
 .switch-container {
@@ -285,6 +285,47 @@ a.button_resume:hover {
   margin: 0;
 }
 
+
+/* Experience ----------------------------------------------------------------------------------------*/
+#experience {
+  /*display: flex;*/
+  /*justify-content: center;*/
+
+  min-height: 400px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.experience-img img {
+  width: 250px;
+  /*float: left;*/
+}
+
+.experience h2, h4 {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.experience-company-and-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.role {
+  font-style: italic;
+}
+
+
 /* Skills ----------------------------------------------------------------------------------------*/
 
 #skills {
@@ -339,13 +380,8 @@ a.button_resume:hover {
   color: #165CAA;
   font-size: 95px;
 }
-
-/* Experience ------------------------------------------------------------------------------------*/
-
-#experience {
-  min-height: 400px;
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+#skills .fa-salesforce {
+  color: #009EDB;
 }
 
 /* Education -------------------------------------------------------------------------------------*/
@@ -359,13 +395,13 @@ a.button_resume:hover {
 .school {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin-bottom: 25px;
 }
 
 .school-img img {
   width: 150px;
-  float: left;
+  /*float: left;*/
 }
 
 .school h2, h4 {
@@ -373,6 +409,12 @@ a.button_resume:hover {
   margin-left: 25px;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.school-and-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Contact ---------------------------------------------------------------------------------------*/
