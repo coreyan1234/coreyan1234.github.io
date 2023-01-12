@@ -288,11 +288,8 @@ a.button_resume:hover {
 
 /* Experience ----------------------------------------------------------------------------------------*/
 #experience {
-  /*display: flex;*/
-  /*justify-content: center;*/
-
   min-height: 400px;
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -305,7 +302,6 @@ a.button_resume:hover {
 
 .experience-img img {
   width: 250px;
-  /*float: left;*/
 }
 
 .experience h2, h4 {
@@ -330,7 +326,7 @@ a.button_resume:hover {
 
 #skills {
   min-height: 260px;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -388,7 +384,7 @@ a.button_resume:hover {
 
 #education {
   min-height: 450px;
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -421,7 +417,7 @@ a.button_resume:hover {
 
 #contact {
   min-height: 290px;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 
