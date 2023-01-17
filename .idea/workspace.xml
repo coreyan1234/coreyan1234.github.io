@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue">
+      <change afterPath="$PROJECT_DIR$/resume/Corey-An-Resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -35,6 +36,22 @@
       <recent name="C:\Users\corey\OneDrive\Documents\GitHub\coreyan1234.github.io\img" />
       <recent name="C:\Users\corey\OneDrive\Documents\GitHub\coreyan1234.github.io" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\corey\OneDrive\Documents\GitHub\coreyan1234.github.io\resume" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +78,8 @@
       <workItem from="1647581745948" duration="924000" />
       <workItem from="1673472491233" duration="8511000" />
       <workItem from="1673556311386" duration="4083000" />
-      <workItem from="1673644257012" duration="96000" />
+      <workItem from="1673644257012" duration="239000" />
+      <workItem from="1673975480296" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <created>1644980909555</created>
