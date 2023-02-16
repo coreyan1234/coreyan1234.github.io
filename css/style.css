@@ -366,6 +366,13 @@ a.button_resume:hover {
   /*font-size: 95px;*/
   font-size: 100px;
 }
+#skills .typescript_logo {
+  width: 90px;
+  height: 90px;
+}
+#skills .fa-react {
+  color: #61dbfb;
+}
 #skills .fa-python {
   color: #4B8BBE;
 }
@@ -379,6 +386,8 @@ a.button_resume:hover {
 #skills .fa-salesforce {
   color: #009EDB;
 }
+
+
 
 /* Education -------------------------------------------------------------------------------------*/
 
