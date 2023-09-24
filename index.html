@@ -83,23 +83,22 @@
         <div class="project-info">
           <h3>Covey.Town Badges</h3>
           <p>
-            <b>How the award is decided:</b>
-            Every season, the National Basketball Association's (NBA) Most Improved Player (MIP) award is given to one player.
-            A panel of sportswriters each have a first-place, second-place, and third-place vote, worth 5, 3, and 1 point,
-            respectively. When votes are cast, nominees accrue voting shares, representing the percentage of votes that they
-            received. The player with the greatest number of voting shares wins the award.
+            <b>What is Covey.Town:</b>
+            Covey.Town is an open-source virtual meeting space designed as a 2D game. Users can log-in to
+            explore the various interactable areas and collaborate with others through video calls.
           </p>
           <p>
-            I worked with datasets and machine learning models (K-nearest neighbors, Ridge, Lasso) to try
-            and predict the voting shares that each player will receive in a season. I extracted datasets
-            of thousands of players' statistics to clean and feed into the machine learning models; a portion
-            of the data would be used for training the model, and another portion would be used for testing.
-            Further tuning was applied to the model to produce better results: GridSearchCV for hyperparameters,
-            and Recursive Feature Elimination.
+            I collaborated with teammates to develop a new feature for Covey.Town. The new feature allows
+            users to earn achievements, which are represented through displayable badges. These badges
+            are earned in real-time, which means that users will receive their badge as soon as
+            an achievement's criteria is met; this also means that all users are able to see other users' badges.
+            When a user exits Covey.Town and logs in again, they will keep their hard-earned badges. This is
+            possible because we implemented a PostgreSQL database that keeps track of users' in-game data,
+            which includes badges that have already been earned.
           </p>
           <p>
             <b>Made with:</b>
-            Python, Pandas, Scikit-Learn, Plotly
+            TypeScript, ReactJS, PostgreSQL, Jest
           </p>
         </div>
       </div>
