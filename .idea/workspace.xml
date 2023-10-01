@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360a023-421c-48ba-9cb2-7b34ce641b40" name="Default Changelist" comment="1. Showcase description width is now dynamic at 50%&#10;2. Section titles are larger&#10;3. Header/Footer color is now dodgerblue">
+      <change afterPath="$PROJECT_DIR$/img/NVD-modified.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NVD.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,7 @@
       <workItem from="1676532015220" duration="2437000" />
       <workItem from="1694973637353" duration="454000" />
       <workItem from="1695594505925" duration="4810000" />
-      <workItem from="1696194505204" duration="4280000" />
+      <workItem from="1696194505204" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="New Features &amp; Look:&#10;1. New Font: Montserrat&#10;2. New showcase background&#10;3. New header/footer background color&#10;4. Added MySQL icon to skills section&#10;5. Skills icons float on hover&#10;6. Updated personal website photo in projects section">
       <created>1644980909555</created>
